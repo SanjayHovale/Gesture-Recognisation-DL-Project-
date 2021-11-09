@@ -36,3 +36,28 @@ Open the terminal
  
  Now that you have got the data on the storage, let's look at the different choices of architectures you can use.
  Two Architectures: 3D Convs and CNN-RNN Stack
+a.	LSTM based
+b.	GRU based
+
+# Results:
+Multiple Experiments were performed on the given train and validation dataset. The following table includes the details of all the 19Experiments performed:
+
+(Final Model)
+
+Model18	Conv2D+(GRU)
+
+Training Accuracy: 84.46%
+Validation Accuracy: 73%
+
+(Total params: 1,000,293)		
+
+Model18: 3 Conv2D (16,32,64,128) pairs of layers, kernel size=(3,3), Batch Normalization(BN), Maxpooling2D, and include Dropouts at Fully Connected (FC) layer group (with GRU)
+
+Decision: Best Stable Model: Model 18
+
+Observations: Out of all the Conv3D and Conv2D+RNN models, Model 18 seems to be the best and stable model for the following reasons:
+(1) High training and validation accuracies. Validation loss seems to be lesser than other model.
+(2) Losses substantially decrease over epochs resulting in better and stable model.
+(3) Efficient simple neural network with a smaller number of parameters
+
+
