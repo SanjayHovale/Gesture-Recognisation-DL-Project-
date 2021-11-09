@@ -40,7 +40,7 @@ a.	LSTM based
 b.	GRU based
 
 # Results:
-Multiple Experiments were performed on the given train and validation dataset. The following table includes the details of all the 19Experiments performed:
+Multiple Experiments were performed on the given train and validation dataset. The following table includes the details of all the 19 Experiments performed:
 
 (Final Model)
 
